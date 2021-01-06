@@ -17,11 +17,12 @@
 package com.example.android.trackmysleepquality.database
 
 import androidx.lifecycle.LiveData
+import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
 
-// TODO (01) Create annotated interface SleepDatabaseDao.
+@Dao
 interface SleepDatabaseDao {
 
     @Insert
